@@ -1,0 +1,242 @@
+.welcome-container {
+  /* background-color: brown; */
+  width: 50%;
+  height: 45vh;
+  margin-top: 6.5%;
+  margin-left: 16%;
+  display: flex;
+}
+
+.hey {
+  font-size: 0.7em;
+  color: #43cead;
+}
+
+.my-name {
+  font-size: 1.3em;
+  /* color: #2d2e30; */
+}
+
+/* .and {
+        font-size: 1.3em;
+      } */
+
+.love {
+  font-size: 1.3em;
+  /* color: #5f5f5f; */
+}
+
+.welcome-container article p {
+  font-size: 0.6em;
+  /* color: #5f5f5f; */
+}
+
+.welcome-container article Button {
+  font-size: 0.6em;
+  color: #43cead;
+  border-color: #43cead;
+}
+
+.welcome-container article {
+  margin-top: 5%;
+}
+
+@media only screen and (min-width: 320px) {
+  .welcome-container {
+    /* background-color: green; */
+    width: 97%;
+    height: 45vh;
+    margin-top: 6.5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .welcome-container article {
+    text-align: center;
+  }
+
+  .hey {
+    font-size: 0.7em;
+    color: #43cead;
+  }
+
+  .my-name {
+    font-size: 0.9em;
+    /* color: #2d2e30; */
+  }
+
+  .love {
+    font-size: 0.9em;
+    /* color: #5f5f5f; */
+  }
+
+  .welcome-container article p {
+    /* display: none; */
+    font-size: 0.4em;
+    /* color: #5f5f5f; */
+  }
+
+  .welcome-container article Button {
+    font-size: 0.6em;
+    color: #43cead;
+    border-color: #43cead;
+  }
+
+  .welcome-container article {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .welcome-container {
+    /* background-color: blue; */
+    width: 75%;
+    height: 45vh;
+    margin-top: 15.5%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+  }
+  .hey {
+    font-size: 0.6em;
+    color: #43cead;
+    text-align: left;
+  }
+
+  .my-name {
+    font-size: 1em;
+    /* color: #2d2e30; */
+    text-align: left;
+  }
+
+  /* .and {
+          font-size: 1.3em;
+        } */
+
+  .love {
+    font-size: 1em;
+    /* color: #5f5f5f; */
+    text-align: left;
+  }
+
+  .welcome-container article p {
+    display: default;
+    font-size: 0.6em;
+    /* color: #5f5f5f; */
+    text-align: left;
+  }
+
+  .welcome-btn {
+    font-size: 0.6em;
+    color: #43cead;
+    border-color: #43cead;
+    text-align: left;
+  }
+
+  .welcome-container article {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .welcome-container {
+    /* background-color: blue; */
+    width: 75%;
+    height: 45vh;
+    margin-top: 20%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20%;
+  }
+  .hey {
+    font-size: 0.6em;
+    color: #43cead;
+    text-align: left;
+  }
+
+  .my-name {
+    font-size: 1em;
+    /* color: #2d2e30; */
+    text-align: left;
+  }
+
+  /* .and {
+          font-size: 1.3em;
+        } */
+
+  .love {
+    font-size: 1em;
+    /* color: #5f5f5f; */
+    text-align: left;
+  }
+
+  .welcome-container article p {
+    display: default;
+    font-size: 0.6em;
+    /* color: #5f5f5f; */
+    text-align: left;
+  }
+
+  .welcome-btn {
+    font-size: 0.6em;
+    text-align: left;
+  }
+
+  .welcome-container article {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .welcome-container {
+    /* background-color: brown; */
+    width: 65%;
+    height: 45vh;
+    margin-top: 15.5%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  .welcome-container {
+    /* background-color: brown; */
+    width: 65%;
+    height: 45vh;
+    margin-top: 5.5%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+  }
+
+  .hey {
+    margin-bottom: -3%;
+  }
+  .my-name {
+    font-size: 2em;
+    margin-bottom: -4%;
+  }
+
+  .love {
+    font-size: 2em;
+    margin-bottom: 0.5%;
+  }
+
+  .welcome-container p {
+    width: 60%;
+    margin-bottom: 3%;
+  }
+
+  .welcome-container article Button {
+    font-size: 1em;
+    color: #43cead;
+    border-color: #43cead;
+  }
+}
